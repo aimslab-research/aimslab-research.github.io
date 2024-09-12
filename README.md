@@ -1,60 +1,112 @@
-# Chirpy Starter
+Here’s a simple README for your **AIMS LAB** website that you can use for your GitHub repository:
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+---
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+# AIMS LAB Website
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+Welcome to the official website of **AIMS LAB (Advanced Intelligent Mobile Systems Lab)**. This website is built using [Jekyll](https://jekyllrb.com) and uses the **Chirpy** theme for a clean and responsive design tailored for technical writing and research documentation.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## Website Overview
 
-```shell
+- **Title**: AIMS LAB
+- **Tagline**: Advanced Intelligent Mobile Systems Lab
+- **Description**: A research lab focused on innovation in mobile robotics systems, intelligent systems, and human-technology interaction.
+- **URL**: [https://aimslab-research.github.io/](https://aimslab-research.github.io/)
+
+### Features
+
+- Responsive and clean design.
+- Easy-to-navigate blog posts and pages.
+- Integrated SEO tags.
+- Support for a wide variety of social media and web analytics.
+- Minimalistic theme focusing on performance and accessibility.
+- Table of contents and comments enabled in blog posts.
+- Progressive Web App (PWA) enabled for offline access.
+
+## Project Structure
+
+This project uses the **Jekyll** static site generator, and the layout is based on the **Chirpy** theme. Below is an overview of the file structure:
+
+```bash
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+├── _config.yml         # Main configuration file for the Jekyll site
+├── _data               # Data files used for localizations and settings
+├── _includes           # Reusable partials for the site
+├── _layouts            # HTML layouts for different pages
+├── _posts              # Blog posts and updates
+├── assets              # Images, stylesheets, and other assets
+├── favicon.ico         # Favicon for the site
+├── index.html          # Homepage
+└── README.md           # This file
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## Setup Instructions
 
-## Prerequisites
+If you'd like to run this site locally or contribute to it, follow these instructions.
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+### Prerequisites
 
-## Installation
+- Ruby >= 2.7
+- Jekyll >= 4.0
+- Bundler
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+### Installation
 
-Then clone it to your local machine and run:
+1. Clone the repository:
 
-```console
-$ bundle
+```bash
+git clone https://github.com/aimslab-research/aimslab-research.github.io.git
+cd aimslab-research.github.io
 ```
 
-## Usage
+2. Install dependencies:
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+```bash
+bundle install
+```
+
+3. Run the site locally:
+
+```bash
+bundle exec jekyll serve
+```
+
+4. Open your browser and navigate to `http://localhost:4000/` to see the site.
+
+### Deploying the Site
+
+This site is hosted using GitHub Pages. To deploy changes, commit and push the changes to the `main` branch of the repository:
+
+```bash
+git add .
+git commit -m "Update site content"
+git push origin main
+```
+
+GitHub Pages will automatically build and deploy the site.
 
 ## Contributing
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+We welcome contributions from the community! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push the changes (`git push origin feature-branch`).
+5. Open a pull request.
 
 ## License
 
-This work is published under [MIT][mit] License.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+## Contact
+
+For any inquiries, feel free to reach out to us:
+
+- **Email**: aimslab.contact@gmail.com
+- **Website**: [AIMS LAB](https://aimslab-research.github.io/)
+- **GitHub**: [aimslab-research](https://github.com/aimslab-research)
+
+---
+
+This README gives an overview of the website, how to set it up locally, and how to contribute. You can modify or expand it based on your specific needs.
