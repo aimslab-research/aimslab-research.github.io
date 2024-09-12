@@ -85,15 +85,6 @@ git push origin main
 
 GitHub Pages will automatically build and deploy the site.
 
-## Contributing
-
-We welcome contributions from the community! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -m 'Add new feature'`).
-4. Push the changes (`git push origin feature-branch`).
-5. Open a pull request.
 
 ## License
 
@@ -108,5 +99,3 @@ For any inquiries, feel free to reach out to us:
 - **GitHub**: [aimslab-research](https://github.com/aimslab-research)
 
 ---
-
-This README gives an overview of the website, how to set it up locally, and how to contribute. You can modify or expand it based on your specific needs.
