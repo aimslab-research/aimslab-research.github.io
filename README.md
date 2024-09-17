@@ -1,5 +1,3 @@
-Here’s a simple README for your **AIMS LAB** website that you can use for your GitHub repository:
-
 ---
 
 # AIMS LAB Website
